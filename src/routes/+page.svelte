@@ -200,13 +200,11 @@
 
 <nav class="navbar">
   <a href="#" id="title">
-    <h2><span>S</span><span>a</span><span>m</span> <span>C</span><span>h</span><span>e</span><span>n</span><span>g</span></h2>
+    <h2><span>W</span><span>i</span><span>l</span><span>l</span><span>i</span><span>a</span><span>m</span> <span>J</span><span>o</span><span>J</span><span>a</span><span>r</span><span>t</span><span>h</span></h2>
   </a>
   <div id="socials">
-    <a href="https://github.com/samalander0" target="_blank" rel="noreferrer" aria-label="Go to Sam's Github"><img src={github} alt="github logo"/></a>
-    <a href="https://instagram.com/samaland3r_" target="_blank" rel="noreferrer" aria-label="Go to Sam's Instagram"><img src={instagram} alt="instagram logo"/></a>
-    <a href="https://twitter.com/samaland3r" target="_blank" rel="noreferrer" aria-label="Go to Sam's Twitter"><img src={twitter} alt="twitter logo"/></a>
-    <a href="https://discord.com/users/588480933108121618" target="_blank" rel="noreferrer" aria-label="Go to Sam's Discord"><img src={discord} alt="discord logo"/></a>
+    <a href="https://github.com/wjojarth23" target="_blank" rel="noreferrer" aria-label="Go to William's Github"><img src={github} alt="github logo"/></a>
+    <a href="https://discord.com/users/801117219945578516" target="_blank" rel="noreferrer" aria-label="Go to William's Discord"><img src={discord} alt="discord logo"/></a>
   </div>
 </nav>
 
@@ -214,7 +212,7 @@
   <h1>
     <span class="line line-1">
       <span class="wrapper">
-        <span class="content">I tell</span>
+        <span class="content">I craft</span>
       </span>
       <span class="wrapper stories-wrapper">
         <span id="stories" class="highlight content">
@@ -225,12 +223,12 @@
         </span> 
       </span>
       <span class="wrapper">
-        <span class="content">on the web</span>
+        <span class="content">on the screen</span>
       </span>
     </span>
     <span class="line line-2">
       <span class="wrapper">
-        <span class="content">And I'd love to tell</span>
+        <span class="content">And I'd love to create</span>
       </span>
       <span class="wrapper yours-wrapper">
         <span id="yours" class="highlight content" on:mouseenter={rollEmoji} on:mouseleave={clearInterval(interval)}>
@@ -356,15 +354,13 @@
             <div class="contact-info-line">
               <h3>Social Media</h3>
               <div class="contact-social-media">
-                <a href="https://github.com/samalander0" target="_blank" rel="noreferrer" aria-label="Go to Sam's Github"><img src={github} alt="github logo"/></a>
-                <a href="https://instagram.com/samaland3r_" target="_blank" rel="noreferrer" aria-label="Go to Sam's Instagram"><img src={instagram} alt="instagram logo"/></a>
-                <a href="https://twitter.com/samaland3r" target="_blank" rel="noreferrer" aria-label="Go to Sam's Twitter"><img src={twitter} alt="twitter logo"/></a>
-                <a href="https://discord.com/users/588480933108121618" target="_blank" rel="noreferrer" aria-label="Go to Sam's Discord"><img src={discord} alt="discord logo"/></a>
+                <a href="https://github.com/wjojarth23" target="_blank" rel="noreferrer" aria-label="Go to William's Github"><img src={github} alt="github logo"/></a>
+                <a href="https://discord.com/users/801117219945578516" target="_blank" rel="noreferrer" aria-label="Go to William's Discord"><img src={discord} alt="discord logo"/></a>
               </div>
             </div>
             <div class="contact-info-line">
               <h3>Email</h3>
-              <a href="mailto:sam@samalander.dev" target="_blank">sam@samalander.dev</a>
+              <a href="mailto:100034323@mvla.net" target="_blank">100034323@mvla.net</a>
             </div>
             <div class="contact-info-line">
               <h3>Location</h3>
@@ -372,14 +368,14 @@
             </div>
           </div>
         </div>
-        <form name="contact-form" acceptCharset="utf-8" action="https://formsubmit.co/contact@samalander.dev" method="post">
+        <form name="contact-form" acceptCharset="utf-8" action="https://formsubmit.co/100032323@mvla.net" method="post">
           <fieldset>
             <input type="text" name="name" id="your-name" placeholder="Name" required/>
             <input type="email" name="email" id="your-email" placeholder="Email" required/>
           </fieldset>
           <textarea name="message" id="message" placeholder="Message" required/>
           <input type="submit" value="Submit"/>
-          <input type="hidden" name="_next" value="https://www.samalander.dev">
+          <input type="hidden" name="_next" value="https://www.jojarth.com">
         </form>
       </div>
     </div>

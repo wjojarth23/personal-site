@@ -254,6 +254,7 @@ header {
   padding: 2.5vmax 5vmax;
   @include flex-center;
   position: relative;
+  white-space:nowrap;
 
   h1 {
     text-transform: uppercase;
