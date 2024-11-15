@@ -4,6 +4,9 @@
   import spacedeb1 from '$lib/images/slides/spacedeb1.webp';
   import spacedeb2 from '$lib/images/slides/spacedeb2.webp';
   import spacedeb3 from '$lib/images/slides/spacedeb3.webp';
+  import theft1 from '$lib/images/slides/theft1.webp';
+  import theft2 from '$lib/images/slides/theft2.webp';
+  import theft3 from '$lib/images/slides/theft3.webp';
   import { book, open_book, arrow, emoji, artist, gear, school, brain, oldsites, boring, habitual, morado, postcards, github, instagram, twitter, discord } from '$lib/images/images';
   
 </script>
@@ -24,6 +27,12 @@
 <span>Get started with Figma for Education, and copy one of the decks below!</span>
 <br/>
 <br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+<div class="presgrid">
 <a class="set" href="https://www.figma.com/slides/1EcpzU2zz7mZxmoLrw4uML/AP-Seminar-TMP?node-id=137-159&t=zzW8H72RgUWRY7gA-1">
 <div class="deck">
 <img class="deckimg bot" src={spacedeb1}/>
@@ -33,7 +42,17 @@
 </div>
 <h1>Black and Colorful</h1>
 </a>
+<a class="set" href="https://www.figma.com/slides/3YjFDb0VuYROF3HflRxOfs/Untitled?node-id=1-25&t=CE57cjrIMdz5HLiC-1">
+<div class="deck">
+<img class="deckimg bot" src={theft1}/>
+<img class="deckimg mid" src={theft2}/>
+<img class="deckimg top" src={theft3}/>
 
+</div>
+<h1>Black Impact</h1>
+</a>
+</div>
+<div class="bottombar">More Coming Soon! <div class="centertext"> Want a deck made just for you? <a href= "mailto:100034323@mvla.net">Reach out to me!</a></div></div>
 </div>
 <style>
 @mixin fade-up($duration, $delay) {
@@ -55,10 +74,24 @@
     opacity: 1;
   }
 }
+.presgrid{
+  display: flex;
+}
 h1{
   font-family: articulat-cf, sans-serif;
   font-size:40px;
   display:inline-block;
+  
+}
+
+.bottombar{
+  background:#ffffff;
+  border: 1px solid #000000;
+  padding:60px;
+  width:1400px;
+  border-radius:25px;
+  text-align:center;
+  margin-top:60px;
 }
 .mid{
   opacity:80%;
@@ -79,13 +112,14 @@ a{
   margin-left:-460px;
   transform:translate(460px,0px);
   transition: 2s;
+  border: 1px solid #000000;
 }
 .deckimg:hover{
   width:500px;
   border-radius:25px;
   display:inline-block;
-  margin-left:-200px;
-  transform:translate(200px,0px);
+  margin-left:-400px;
+  transform:translate(400px,0px);
   opacity:100% !important;
 }
 .body{
@@ -95,7 +129,7 @@ a{
   @include fade-up(1.5s, 2.5s);
 }
 .deck{
-
+width:800px;
 }
 .figmalogo{
   height:40px;
