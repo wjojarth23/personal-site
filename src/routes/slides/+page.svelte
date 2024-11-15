@@ -4,6 +4,7 @@
   import spacedeb1 from '$lib/images/slides/spacedeb1.webp';
   import spacedeb2 from '$lib/images/slides/spacedeb2.webp';
   import spacedeb3 from '$lib/images/slides/spacedeb3.webp';
+  import figmalogo from '$lib/images/slides/figmalogo.svg';
   import theft1 from '$lib/images/slides/theft1.webp';
   import theft2 from '$lib/images/slides/theft2.webp';
   import theft3 from '$lib/images/slides/theft3.webp';
@@ -21,7 +22,7 @@
 </nav>
 <br/>
 <div class="body">
-<h1 class="line">I use </h1><div class="figmabox"><img class= "figmalogo"src="src/lib/images/icons/figma.svg"/>Figma</div><h1 class="line">    a next generation design tool to create stunning visual effects</h1>
+<h1 class="line">I use </h1><div class="figmabox"><img class= "figmalogo"src={figmalogo}/>Figma</div><h1 class="line">    a next generation design tool to create stunning visual effects</h1>
 
 <br/>
 <span>Get started with Figma for Education, and copy one of the decks below!</span>
