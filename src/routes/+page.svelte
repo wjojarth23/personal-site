@@ -243,6 +243,7 @@
     <img src={arrow} alt="down arrow"/>
     <img src={arrow} alt="down arrow"/>
   </div>
+  <a class="slidesbtn" href="/slides">&gt; Slides &lt;</a>
 </header>
 
 <main>
@@ -295,56 +296,7 @@
         </h3>
       </div>
     </section>
-    <section id="past-sites">
-      <h2>
-        <span class="small">...and I'm always</span>
-        <span class="big">learning</span>
-      </h2>
-      <div class="images">
-        {#each oldsites as site (site.number)}
-          <img src={site.image} id={`site${site.number}`} alt={`old site ${site.number}`} class="old-site"/>
-        {/each}
-      </div>
-    </section>
-  </div>
-  <section id="projects" bind:this={projectsSection}>
-    <h2>Projects</h2>
-    <span aria-hidden="true">Projects</span>
-    <div id="scroller">
-      <article class="project" bind:this={project2}>
-        <a href="https://postcard.samalander.dev/" target="_blank" rel="noreferrer" aria-label="go to featured website">
-          <img src={postcards} alt="digital postcard website screenshot"/>
-        </a>
-        <a href="https://postcard.samalander.dev/" target="_blank" rel="noreferrer" class="project-title">
-          <h3>Digital Postcards</h3>
-        </a>
-      </article>
-      <article class="project" bind:this={project3}>
-        <a href="https://www.habitual.studio/" target="_blank" rel="noreferrer" aria-label="go to featured website">
-          <img src={habitual} alt="habitual website screenshot"/>
-        </a>
-        <a href="https://www.habitual.studio/" target="_blank" rel="noreferrer" class="project-title">
-          <h3>Habitual</h3>
-        </a>
-      </article>
-      <article class="project" bind:this={project4}>
-        <a href="https://mora.do/" target="_blank" rel="noreferrer" aria-label="go to featured website">
-          <img src={morado} alt="petrichor website screenshot"/>
-        </a>
-        <a href="https://mora.do/" target="_blank" rel="noreferrer" class="project-title">
-          <h3>Morado Development</h3>
-        </a>
-      </article>
-      <article class="project" bind:this={project1}>
-        <a href="https://boring.samalander.dev/" target="_blank" rel="noreferrer" aria-label="go to featured website">
-          <img src={boring} alt="[boring] website screenshot"/>
-        </a>
-        <a href="https://boring.samalander.dev/" target="_blank" rel="noreferrer" class="project-title">
-          <h3>[Boring]</h3>
-        </a>
-      </article>
-    </div>
-  </section>
+    
   <section id="contact">
     <div id="contact-wrapper">
       <h2>I'd love to work with you</h2>
@@ -382,3 +334,7 @@
     </div>
   </section>
 </main>
+
+<style>
+
+</style>
