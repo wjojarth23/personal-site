@@ -19,9 +19,9 @@
     <a href="https://discord.com/users/801117219945578516" target="_blank" rel="noreferrer" aria-label="Go to William's Discord"><img src={discord} alt="discord logo"/></a>
   </div>
 </nav>
-
+<br/>
 <div class="body">
-<h1 class="line">I use </h1><div class="figmabox"><img class= "figmalogo"src="src/lib/images/icons/figma.svg"/>Figma</div><h1 class="line">, a next generation design tool to create stunning visual effects</h1>
+<h1 class="line">I use </h1><div class="figmabox"><img class= "figmalogo"src="src/lib/images/icons/figma.svg"/>Figma</div><h1 class="line">    a next generation design tool to create stunning visual effects</h1>
 
 <br/>
 <span>Get started with Figma for Education, and copy one of the decks below!</span>
@@ -91,7 +91,7 @@ h1{
   width:1400px;
   border-radius:25px;
   text-align:center;
-  margin-top:60px;
+  margin-top:100px;
 }
 .mid{
   opacity:80%;
@@ -123,9 +123,9 @@ a{
   opacity:100% !important;
 }
 .body{
-  margin-top:160px;
-  margin-left:160px;
-  margin-right:160px;
+  margin-top:6rem;
+  margin-left:6rem;
+  margin-right:6rem;
   @include fade-up(1.5s, 2.5s);
 }
 .deck{
@@ -142,6 +142,7 @@ width:800px;
   background:#E0E0E0;
   padding:6px;
   margin-left:10px;
+  margin-right:10px;
   font-weight:700;
   font-size:40px;
   border-radius: 10px;
