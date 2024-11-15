@@ -2,6 +2,7 @@
   import './styles.scss'
   import { onMount } from 'svelte';
 
+
   import { book, open_book, arrow, emoji, artist, gear, school, brain, oldsites, boring, habitual, morado, postcards, github, instagram, twitter, discord } from '$lib/images/images';
   
   import Metatags from '$lib/components/Metatags.svelte';
