@@ -250,18 +250,29 @@ nav {
   }
 }
 .slidesbtn{
-  padding-left:40px;
-  padding-right:40px;
-  padding-top:20px;
-  padding-bottom:10px;
-  font-weight:800;
-  font-size:96px;
-  padding-bottom:20px;
-  border-radius:10px;
+  position: absolute;
+  bottom: 3vh;
+  background: #000000;
+  border-radius: 5px;
+  height: 2rem;
+  margin-left:130px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-bottom:1.2rem;
+  display: grid;
+  place-items: center;
+  width: fit-content;
+  white-space: nowrap;
+  overflow: hidden;
   background:#000000;
   color:white;
+  font-size: 1.2rem;
   text-decoration: none;
   @include fade-up(2s, 1.25s);
+ 
+  @include animate(arrow-down, 1s, 4s);
+    opacity: 0;
+    transition: 0.3s ease-out;
 }
 header {
   height: 100vh;
@@ -273,18 +284,18 @@ header {
   h1 {
     text-transform: uppercase;
     font-weight: 900;
-    font-size: 5.5vw;
+    font-size: 4.5vw;
     line-height: 1.1em;
     @include flex-center;
 
     @media (max-width: 1000px) {
-      font-size: 4rem;
+      font-size: 3.5rem;
     }
     @media (max-width: 550px) {
-      font-size: 3rem;
+      font-size: 2.5rem;
     }
     @media (max-width: 450px) {
-      font-size: 2.5rem;
+      font-size: 1.5rem;
     }
     
     .line {

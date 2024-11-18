@@ -243,7 +243,12 @@
     <img src={arrow} alt="down arrow"/>
     <img src={arrow} alt="down arrow"/>
   </div>
-  <a class="slidesbtn" href="/slides">&gt; Slides &lt;</a>
+    <a class="slidesbtn" href="/slides">Slides 
+  
+
+</a>
+
+
 </header>
 
 <main>
@@ -336,5 +341,12 @@
 </main>
 
 <style>
-
+.arrowsvg{
+  color:white;
+  height:2rem;
+  width:2rem;
+  stroke-width: 4;
+  margin-bottom: 0.2rem;
+  display:inline-block;
+}
 </style>

@@ -89,7 +89,7 @@ h1{
   background:#ffffff;
   border: 1px solid #000000;
   padding:60px;
-  width:1400px;
+  width:max;
   border-radius:25px;
   text-align:center;
   margin-top:100px;
